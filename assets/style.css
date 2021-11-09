@@ -1,0 +1,135 @@
+.main-header {
+  background-color: lightgray;
+  padding: 30px;
+}
+
+.container {
+  border-top: 5px solid cadetblue;
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+a:visited {
+  color: cadetblue;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color:rgb(8, 46, 160);
+  background-color: rgb(118, 118, 252);
+}
+
+h1 {
+  color: darkcyan;
+  font-family: sans-serif;
+  font-size: unset;
+}
+
+h2 {
+  color: darkcyan;
+  font-family: sans-serif;
+}
+
+h3 {
+  color: darkcyan;
+  font-family: sans-serif;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+aside {
+  background-color: lightgray;
+  border-top: 5px solid cadetblue;
+  border-bottom: 5px solid cadetblue;
+  padding: 50px 160px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-right: 300px;
+}
+
+h1::after {
+  content: "TOP";
+  background-color: orange;
+  font-size: 11px;
+  font-weight: bold;
+  display: inline-block;
+  top: 100px;
+  right: 500px;
+  position: absolute;
+}
+
+button {
+  display: inline-block;
+  bottom: 0px;
+  right: 500px;
+  position: absolute;
+}
+
+/*
+.article-container {
+  border: 5px solid green;
+  padding: 10px;
+}
+
+.footer-container {
+  border: 5px solid brown;
+  padding: 10px;
+}
+
+.container {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a:visited {
+  color: pink;
+}
+
+a:hover {
+  color: red;
+  background-color: green;
+}
+
+a:active {
+  color: orange;
+}
+
+li:first-child {
+  color: blue;
+}
+
+li:nth-child(even) {
+  color: blueviolet;
+}
+
+/* article p:nth-last-child(1) {
+  color: red;
+} */
+
+/* h1::first-letter {
+  color: green;
+}
+
+h1 {
+  background-color: plum;
+  padding: 20px 10px;
+  margin: 5px 10px;
+  /* float: left; */
+/* }
+
+aside {
+  background-color: aqua;
+  /* border-top: 100px solid red; */
+/* }
+
+p::first-line {
+  color: rosybrown;
+}   */
+
