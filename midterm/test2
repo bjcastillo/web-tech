@@ -1,0 +1,46 @@
+Differentiate the following CSS selectors (20 pts)
+a. Combining selectors
+b. Class and ID selectors
+c. Pseudo-classes
+
+Answer:
+Selectors are used to target a specific element or range of elements on a web page. 
+Once an element has been targeted, a style or set of styles can be applied to the element.
+When designing a web page, you will want certain styles to apply to specific elements on the page. 
+For instance, you may want to set the text color of all <p> tags to green or change the font size of a header.
+Selectors allow you to target specific elements on a web page that you can apply styles to. 
+There are many selectors available, such as universal selectors, descendant selectors, child selectors, and grouping selectors.
+
+Class selectors are defined using a "." symbol.
+It allows you to define style rules that apply to any element with a class attribute equal to a certain value.
+Classes, can be used across multiple elements. 
+So, if you apply a style using a class selector, any element which shares that class will be subject to the styles you define.
+
+ID selectors are defined using a # symbol.
+The id selector allows you to define style rules that apply to a single element on the web page. 
+Each web page can only have one element with a single ID attribute. 
+This means the ID selector can never be used to style more than one element. 
+They are immediately followed by the ID value that you want to apply a set of style rules to.
+
+Pseudo-classes are used to add styles to selectors, but only when those selectors meet certain conditions. 
+A pseudo class is expressed by adding a colon (:) after a selector in CSS.
+Pseudo-classes can stylize elements differently when users are hovering over them (:hover) 
+or at that exact moment when users are selecting a link (:active). 
+It can also stylize links differently after users have visited them (:visited).
+
+
+
+Differentiate the following hyperlinks styling attributes (20pts)
+a. a:hover
+b. a:active
+c. a:visited
+d. a:link
+
+Answer:
+Hover is a link that is hovered over by a user's mouse pointer
+or it is the hyperlink under the mouse pointer.
+Active is a hyperlink that has been clicked and is currently being fetched by the browser
+or a link that has activated.
+Visited is a link that has already been visited
+or a page that has been visited recently.
+Link is a unclicked state of a hyperlink.

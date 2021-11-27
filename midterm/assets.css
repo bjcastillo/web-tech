@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+.img1{
+    width: 15px;
+    height: 15px;
+}
+.top-border{
+    background-color: blue;
+    padding: 5px;
+}
+.main-header{
+    float: right;
+    padding: 10px;
+    padding-right: 80px;
+    width: 490px;
+    margin-right: -60px;
+    color: cadetblue;
+    font-family: sans-serif;
+}
+.nav{
+    color: cadetblue;
+    font-family: sans-serif;
+    word-spacing: 35px;
+    position: relative;
+}
+.article{
+    float: right;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    padding-top: 10px;
+    width: 580px;
+    margin-right: -50px;
+    line-height: 15px;
+    text-align: justify;
+}
+aside{
+    float: left;
+    border-bottom: 5px solid cadetblue;
+    border-top: 5px solid cadetblue;
+    background-color: cornsilk;
+}
+.main-header::after{
+    content:"TOP";
+    font-size: 15px;
+    font-family: sans-serif;
+    background-color:yellow;
+    color: black;
+    margin-top: 10px;
+    bottom: 0px;
+    top: -50px;
+    left: 220px;
+    position:relative;
+}
+.tutorials::after{
+    content: "HOT";
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+    background-color: yellow;
+    color: black;
+    bottom: 0px;
+    top: -300px;
+    left: 100px;
+    position: relative;
+}
